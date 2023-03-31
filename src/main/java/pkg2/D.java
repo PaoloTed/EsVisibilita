@@ -1,5 +1,4 @@
 package pkg2;
-
 import pkg1.A;
 
 public class D {

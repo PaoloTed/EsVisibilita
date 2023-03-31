@@ -1,5 +1,5 @@
 package pkg2;
-import pkg1.*;
+import pkg1.A;
 
 public class CA extends A {
     public int vca1 = valProtected;
