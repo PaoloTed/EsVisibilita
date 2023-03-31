@@ -10,7 +10,7 @@ public class BA extends A{
         public int valBA_Default = valA_Default;
         /*public int valBA_Default = this.valA_Default;*/
 
-    /*Accessibile Con Riferimento Alla SuperClasse A Necessario*/
+    /*Accessibile Con Riferimento Alla SuperClasse "A" Necessario*/
         public void f(){
             A a = new A();
             a.valA_Public = 4;
