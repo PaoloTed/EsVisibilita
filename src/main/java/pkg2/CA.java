@@ -2,13 +2,11 @@ package pkg2;
 import pkg1.A;
 
 public class CA extends A {
-    public int vca1 = valProtected;
-    /*public int vca1 = this.valProtected;*/
-    public int vca2 = valPublic;
-    /*public int vca2 = this.valPublic;*/
+    public int valCA_Public = valA_Public;
+    public int valCA_Protected = valA_Protected;
 
     public void fc(){
         A a = new A();
-        a.valPublic = 5;
+        a.valA_Public = 5;
     }
 }
